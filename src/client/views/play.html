@@ -377,19 +377,29 @@
                         </div>
                     </div>
 
-                    <!-- Game info, clocks, player names, whos turn -->
+                    <!-- Game info, clocks, player names, chat, whos turn -->
                     <div id="footer" class="footer">
-                        <div id="timer-container-white" class="timerwhitecontainer">
-                            <div id="timer-white" class="timerwhite">10:00</div>
+                        <div id="footer-left-side" class="footerside">
+                            <div id="timer-container-white" class="timerwhitecontainer">
+                                <div id="timer-white" class="timerwhite">10:00</div>
+                            </div>
+                            <div id="playerwhite" class="playerwhite">Player white</div>
+                            <div id="chat-window-balancer" class="chatwindowbalancer"></div>
                         </div>
-                        <div id="playerwhite" class="playerwhite">Player white</div>
                         <div class="whosturn">
                             <div id="dot" class="dotwhite"></div>
                             <div id="whosturn">White to move</div>
                         </div>
-                        <div id="playerblack" class="playerblack">Player black</div>
-                        <div id="timer-container-black" class="timerblackcontainer">
-                            <div id="timer-black" class="timerblack">10:00</div>
+                        <div id="footer-right-side" class="footerside">
+                            <div id="chat-window-minimized" class="chatwindowminimized">
+                                <div id="chat-minimalized-content" class="chatminimalizedcontent"></div>
+                                <button id="chat-open-button" class="chatopenbutton" onpointerup=""><span id="chat-open-icon" class="chatopenicon">R</span></button>
+                            </div>
+                            <div id="chat-popup" class="chatpopup hidden">Hello?</div>
+                            <div id="playerblack" class="playerblack">Player black</div>
+                            <div id="timer-container-black" class="timerblackcontainer">
+                                <div id="timer-black" class="timerblack">10:00</div>
+                            </div>
                         </div>
                     </div>
                 </div>

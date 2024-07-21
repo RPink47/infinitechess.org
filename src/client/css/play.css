@@ -965,6 +965,11 @@ button.join-button, button.copy-button {
     font-weight: bold;
 }
 
+.footerside {
+    flex-grow: 2.5;
+    display: flex;
+}
+
 .dotwhite, .dotblack {
     border: 1px solid black;
     width: 22px;
@@ -973,6 +978,57 @@ button.join-button, button.copy-button {
     margin: 12px;
     transition: 0.25s;
     flex-shrink: 0;
+}
+
+.chatpopup {
+    float: right;
+    position:relative;
+    bottom:16mm;
+    margin-right: 6mm ;
+}
+
+.chatwindowminimized {
+    float: right;
+    width: 10%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin: 3mm;
+    flex:5;
+    display: block;
+
+}
+
+.chatminimalizedcontent {
+    float: left;
+}
+
+.chatopenbutton {
+    float: right;
+    padding: 3mm;
+}
+
+.chatopenicon {
+
+}
+
+.chatopenicon.closed {
+
+}
+
+.chatopenicon.open {
+
+}
+
+.chatwindowbalancer {
+    float: left;
+    width: 10%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent;
+    margin: 3mm;
+    flex:5;
+    display: flex;
 }
 
 .dotwhite {
